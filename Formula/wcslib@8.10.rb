@@ -11,6 +11,16 @@ class WcslibAT810 < Formula
     regex(/href=.*?wcslib[._-]v?(\d+(?:\.\d+)+)\.t/i)
   end
 
+  bottle do
+    root_url "https://github.com/szampier/homebrew-test/releases/download/wcslib@8.10-8.10"
+    sha256 cellar: :any, arm64_golden_gate: "b8f4573b0317af24eec58429854d30ea076f578a0e6833239869e198db91c384"
+    sha256 cellar: :any, arm64_tahoe:       "853502d506e32e3e9c463491156fdd287e46b690a737342f357dbac730c38bb5"
+    sha256 cellar: :any, arm64_sequoia:     "4e5429ecc63f355a2cc1d7def1e15dac993f399f81c15b7c7ef50e775f9923b5"
+    sha256 cellar: :any, arm64_sonoma:      "07e268a3caa90ec7ec170a24bf787fe35d83867268ad04f00f838222b8703bdd"
+    sha256 cellar: :any, arm64_linux:       "2340e40833f620eb87403e4dc8f0403243f83874ce5f82b4bd33ad8307b27fd8"
+    sha256 cellar: :any, x86_64_linux:      "59d6c97c1dc3cc214c72160cba04f4bafa14d691389dbc4743bbf3c4db2eb11d"
+  end
+
   depends_on "cfitsio"
 
   deny_network_access!
