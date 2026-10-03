@@ -2,7 +2,7 @@ class WcslibAT810 < Formula
   desc "Library and utilities for the FITS World Coordinate System"
   homepage "https://www.atnf.csiro.au/computing/software/wcs/"
   url "https://www.atnf.csiro.au/computing/software/wcs/wcslib-releases/wcslib-8.10.tar.bz2"
-  sha256 "447ecb7be9b43798f4d7f10855f3f39f826ad550bc9b330ced4736960fc65289"
+  sha256 "b394d3306da9a52410f056136911496e599b5c48f1cff2f221563697077bbd8d"
   license "LGPL-3.0-or-later"
   compatibility_version 1
 
